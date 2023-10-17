@@ -1,0 +1,40 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.howmanystation"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/baseline_access_alarm_24" />
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="205dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/howmanystation"
+        android:textSize="24dp"
+
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="175dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/about"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
